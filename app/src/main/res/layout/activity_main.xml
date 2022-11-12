@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_food_bible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:backgroundTint="#E3E017"
+                android:layout_height="80dp" android:id="@+id/button11" app:strokeColor="#CC1212"/>
+        <Button
+                android:text="Button"
+                android:backgroundTint="#2FD609"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" android:id="@+id/button12"/>
+        <Button
+                android:text="Button"
+                android:backgroundTint="@color/purple_700"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" android:id="@+id/button13"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:backgroundTint="#DD6B14"
+                android:layout_height="80dp" android:id="@+id/button14"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:backgroundTint="#BCD81B"
+                android:layout_height="80dp" android:id="@+id/button15"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/purple_200"
+                android:layout_height="80dp" android:id="@+id/button16"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:backgroundTint="#1D8142"
+                android:layout_height="80dp" android:id="@+id/button17"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/teal_700"
+                android:layout_height="80dp" android:id="@+id/button18"/>
+    </LinearLayout>
+</RelativeLayout>
